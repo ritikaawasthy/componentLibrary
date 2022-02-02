@@ -1,0 +1,112 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@0;1&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,500;0,800;1,400;1,500;1,600;1,700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,600;1,700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;500;600;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  top:0;
+  left:0;
+  font: 62.5%;
+  /* font-family: font-family: 'Vollkorn', serif; */
+  /* font-family: 'Cinzel', serif; */
+  /* font-family: 'Cormorant', serif; */
+  /* font-family: 'IBM Plex Serif', serif; */
+  /* font-weight: 400; */
+}
+
+:root{
+  /* --prim-col: #8187DC; */
+  /* --sec-col: #DAB6FC; */
+  /* --prim-col: #B98EA7;
+  --sec-col: #F0D3F7; */
+  /* --prim-col: #D63157;
+  --sec-col: #F5E4E8; */
+  /* #E0C3FC; */
+  /* --prim-col: #CDB4DB; */
+  --prim-col:#BFA7CC;
+  /* --prim-col:#432D4E; */
+
+
+    /* --prim-col:#A276CB; */
+  /* --prim-col:#3D002E; */
+  /* --prim-col:#E66791; */
+    /* --prim-col:#C11F55; */
+  --sec-col: #FFE0E9;
+
+  /* --sec-col: #DFE2CF; */
+  --prim-light:#ADA7FF;
+  --sec-light: #FFEDFF;
+  --white: #FAFAFF;
+  --dark-purple: #39002E;
+  --red: #CB0E01;
+  --red-light: #FFB7BA;
+  --yellow: #FFB700;
+  --yellow-light: #FFF8B5;
+  --green: #60D394;
+  --green-light:#CBF9B3;
+  --base-col: #EDEDE9;
+  --blue: #42A5F5;
+  --blue-li: #BBDEFB;
+
+}
+
+body{
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.container{
+  display: flex;
+  gap : 10px;
+}
+
+.container-col{
+  padding: 3rem;
+  display: flex;
+  flex-flow: column wrap;
+  gap : 10px;
+}
+
+img{
+  width:100%;
+  height:auto;
+}
+
+.img-round{
+  border-radius: 50%;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+.sz-2{
+  width: 2rem;
+  height: 2rem;
+}
+
+.sz-3{
+  width: 3rem;
+  height: 3rem;
+}
+
+.sz-4{
+  width: 4rem;
+  height:4rem;
+}
+
+.sz-6{
+  width: 6rem;
+  height:6rem;
+}
+
+.sz-8{
+  width: 8rem;
+  height: 8rem;
+}
+
+@media only screen and (max-width:500px){
+  html{font-size:62.5% }
+}

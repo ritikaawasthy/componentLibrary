@@ -1,0 +1,22 @@
+
+.alert{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0.5rem 1rem;
+  /* border: solid 1px var(--sec-col); */
+  background-color: var(--prim-col);
+  width:35%;
+  border-radius: 0.5rem;
+  color: var(--sec-col);
+  box-shadow: 1px 1px 2px lightgrey;
+
+}
+.alert-close{
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+.alert-close>span:hover{
+  cursor:pointer;
+  opacity: 0.5;
+}

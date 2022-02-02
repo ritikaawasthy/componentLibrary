@@ -1,0 +1,9 @@
+.icon{
+
+}
+
+.icon::before{
+  font-family: "Font Awesome 5 Free";
+  font-weight: 400;
+  content: "\f07a";
+}
