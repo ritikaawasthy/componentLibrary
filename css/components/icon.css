@@ -1,9 +1,16 @@
-.icon{
+/* .icon{
+  font-family: "Font Awesome 5 Free";
+  font-weight: 400;
+} */
 
-}
+/* .icon::before{
+  font-family: "Font Awesome 5 Free";
+  font-weight: 400;
+  content: "\f2b9";
+} */
 
-.icon::before{
+/* .icon-cart::before{
   font-family: "Font Awesome 5 Free";
   font-weight: 400;
   content: "\f07a";
-}
+} */

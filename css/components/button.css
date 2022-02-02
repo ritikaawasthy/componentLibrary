@@ -1,0 +1,24 @@
+.btn{
+  padding: 0.8rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.btn:hover{
+  opacity: 0.5;
+}
+
+.btn-dis{
+  background-color: lightgrey;
+  opacity: 0.3;
+}
+
+.btn-dis:hover{
+  cursor: not-allowed;
+  opacity: 0.3;
+}
+
+.btn-bord{
+  background-color: white;
+  border: 2px solid ;
+}
